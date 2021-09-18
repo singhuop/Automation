@@ -4,7 +4,7 @@ from Utilities import configuration
 from Utilities import resource
 from Utilities import payload
 
-"""def test_single_user():
+def test_single_user():
     url_single=configuration.getConfig()['API']['endpoint']+resource.ApiResources.single_user
     request_json=requests.get(url_single)
     json_data=request_json.json()
@@ -36,7 +36,7 @@ def test_post_create():
     request_json=requests.post(post_url,json=payload.post_create_user())
     print(request_json.status_code)
     json_data=request_json.json()
-    print(json_data)"""
+    print(json_data)
 
 
 def test_post_create_from_db():
